@@ -147,6 +147,31 @@ Class employee= {
                  let result=sum(10,23); 
                  console.log(result) ; 
                  
+    //HoistingVariable When the variable it is declared before it is intiliazed  
+    
+    Example1: 
+    Hoisting="Nagendra"; 
+    console.log(Hoisting); 
+    var Hoisting; 
+    
+    //Function is declared before it is intiliazed
+    
+    Example2: 
+    Hositing ();
+    function checking( ) { 
+      console.log("displaying the data"); 
+      } 
+      
+      multiply ( );
+      function values(a,b) { 
+        let result=a*b+19; 
+        return result; 
+        console.log(result); 
+        } 
+        
+        
+        
+  
                  
                 
                 
