@@ -158,7 +158,7 @@ Class employee= {
     
     Example2: 
     Hositing ();
-    function checking( ) { 
+    function Hoisting( ) { 
       console.log("displaying the data"); 
       } 
       
