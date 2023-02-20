@@ -170,15 +170,17 @@ Class employee= {
         } 
         
         
-        
-  
-                 
-                
-                
-                
-               
-            
-                
-                
-     
+Write a programe using froom class and constructor.  
 
+class employee { 
+  Constructor ("name","age","email","skills") { 
+     this.name=name;  
+     this.age=age;  
+     this.email=email;  
+     this.skills=skills;  
+     } 
+     // Here to create a object.  
+     const Loginfo=new employee("Nagendra",26,"nagendragowd.annam@gmail.com","Cypress WebApplicationTesting");  
+     console.log(Logininfo);  
+     
+    
